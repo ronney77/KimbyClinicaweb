@@ -1,0 +1,39 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+</h:head>
+
+<h:body>
+
+
+	<h:form>
+
+		<fieldset>
+			<legend>Login</legend>
+
+			<p:outputLabel for="txtUser" value="Usuário:" />
+			<br />
+			<h:inputText id="txtUser" placeholder="usuário" value="#{Login.usuario.usuario}" />
+
+			<br/>
+			<br/>
+			
+			<p:outputLabel for="txtPass" value="Senha:" />
+			<br />
+			<h:inputText id="txtPass" placeholder="senha" value="#{Login.usuario.senha}" />
+
+
+			<br/>
+			<br/>
+			<p:button value="ENTRAR" />
+
+		</fieldset>
+
+	</h:form>
+
+</h:body>
+</html>
